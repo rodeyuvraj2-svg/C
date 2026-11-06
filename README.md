@@ -1,34 +1,104 @@
 # C Programming Practice
 
-A collection of standalone C programs for practicing fundamental programming concepts. The exercises are numbered `c1.c` through `c42.c`; most read input from the terminal and print a result.
+A collection of **42 standalone C programs** covering fundamental programming concepts, problem-solving techniques, and core data structures.
 
-## Topics
+This repository documents my practice and learning journey in C programming, starting with basic input/output operations and progressing towards pointers, dynamic memory allocation, structures, unions, and file handling.
 
-| Files | Exercises |
-|---|---|
-| `c1.c`–`c10.c` | Student marks and grades, swapping values, temperature conversion, bitwise even/odd checks, triangle area and classification, digit sums, string digit checks, and leap years |
-| `c11.c`–`c15.c` | Fibonacci sequence, prime checks, primes in a range, Armstrong numbers, and star patterns |
-| `c16.c`–`c21.c` | Array minimum and maximum, reversing and shifting arrays, values above the average, finding a pair for a target in a sorted array, and bubble sort |
-| `c22.c`–`c27.c` | Functions, recursion, powers, factorials, digit sums, and array sums |
-| `c28.c`–`c29.c` | Matrix operations |
-| `c30.c`–`c32.c` | Dynamic memory allocation with `malloc`, `calloc`, and `realloc` |
-| `c33.c`–`c34.c` | String length and concatenation |
-| `c35.c`–`c38.c` | Structures, unions, student data, and arithmetic with complex numbers |
-| `c39.c`–`c42.c` | File input/output, including character- and string-based operations |
+## 📚 Topics Covered
 
-## Compile and run
+| No. | Topics | Programs |
+|:---:|---|:---:|
+| 01 | Basics, Operators & Conditional Statements | C1 – C10 |
+| 02 | Loops, Number Problems & Patterns | C11 – C15 |
+| 03 | Arrays & Sorting Algorithms | C16 – C21 |
+| 04 | Functions & Recursion | C22 – C27 |
+| 05 | Matrix Operations | C28 – C29 |
+| 06 | Dynamic Memory Allocation | C30 – C32 |
+| 07 | String Manipulation | C33 – C34 |
+| 08 | Structures & Unions | C35 – C38 |
+| 09 | File Handling | C39 – C42 |
 
-Each source file is a separate program with its own `main` function. Compile and run one file at a time with a C compiler such as GCC:
+## 🛠️ Tech Stack
 
-```powershell
-gcc .\c1.c -o c1.exe
+- **Language:** C
+- **Compiler:** GCC
+- **Standard:** C99 or later
+- **Editor:** VS Code
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd <repository-folder>
+```
+
+### 3. Compile a program
+
+```bash
+gcc c1.c -o c1
+```
+
+### 4. Run the executable
+
+**Windows:**
+```bash
 .\c1.exe
 ```
 
-For example, compile a different exercise by replacing `c1.c` with its filename. The programs use C99 features, so use a compiler configured for C99 or newer. `c14.c` uses `pow` from the math library; on platforms that require explicit math linking, compile it with:
+**Linux / macOS:**
+```bash
+./c1
+```
 
-```sh
+### Special Compilation
+
+The program `c14.c` uses the math library (`pow()`).
+
+Compile it on Linux or other GCC environments requiring explicit math linking:
+
+```bash
 gcc c14.c -o c14 -lm
 ```
 
-These are practice exercises and may require corrections or adjustments depending on your compiler and inputs.
+## 📂 Project Structure
+
+```text
+C-Programming-Practice/
+│
+├── c1.c
+├── c2.c
+├── c3.c
+├── ...
+├── c40.c
+├── c41.c
+├── c42.c
+│
+└── README.md
+```
+
+## 🎯 Learning Objectives
+
+- Strengthen programming fundamentals.
+- Develop logical and problem-solving skills.
+- Understand procedural programming in C.
+- Practice arrays, strings, functions, and recursion.
+- Explore pointers and dynamic memory allocation.
+- Understand structures, unions, and file handling.
+
+## 📌 Notes
+
+- Each `.c` file is an independent program with its own `main()` function.
+- Compile and execute programs individually.
+- Programs may require valid user input.
+- Some implementations may be improved as learning progresses.
+
+---
+
+**Learning by coding, improving through practice.**
